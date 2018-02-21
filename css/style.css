@@ -1,0 +1,24 @@
+       
+       input[type=button] {
+            text-transform:uppercase;
+            transition: all 0.3s ease-out;
+            display:inline-block;
+            border:5px solid #fff;
+            border-radius:10px;
+            padding: 20px 50px;
+            color:#fff;
+            background:green;
+            font-size:1.5em;
+            font-family:sans-serif;
+            margin:50px 50px 20px 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+        }
+        input[type=button]:active {
+            box-shadow: 
+             inset 2px 2px 11px black;
+            border: 5px solid ;
+        }
+        input[type=button]:hover {
+            background:#00AC03;
+            border: 5px solid #00AC03;
+        }
